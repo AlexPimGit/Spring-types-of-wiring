@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ocean1 {
 
-    @Autowired
+    @Autowired// автоматически подтягивает бин-объект island из метода getIsland с аргументом wood
     private Island2 island;
 
     @Override
